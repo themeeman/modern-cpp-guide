@@ -1,0 +1,6 @@
+[book]
+authors = ["tomvanwoow"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Modern C++ Guide"
