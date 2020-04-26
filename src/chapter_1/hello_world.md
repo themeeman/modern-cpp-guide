@@ -3,7 +3,7 @@
 To begin this C++ journey, we are going to look at the classic Hello World program. Regardless of your experience with other languages, this will look pretty foreign, so it is worth-while to go through it.
 
 ```cpp
-import <iostream>
+import <iostream>;
 
 int main() {
     std::cout << "Hello, World!\n";
@@ -25,12 +25,12 @@ It then looks up the `cout` name inside the namespace `std`. A namespace is what
 > Most tutorials, books and educational resources about C++ seem to encourage use of `using namespaces std;` at the top of your code. This allows you to omit writing `std::` before every type, which reduces keystrokes.
 >
 > ```cpp
-> import <iostream>
+> import <iostream>;
 >
 > using namespace std; // No!!!
 >
 > int main() {
->   cout << "Hello World\n";
+>   cout << "Hello, World!\n";
 > }
 > ```
 >
@@ -41,12 +41,24 @@ It then looks up the `cout` name inside the namespace `std`. A namespace is what
 > An alternative to this is to do `using` only on specific names you want to include. However, I am personally not a fan of that style.
 >
 > ```cpp
-> import <iostream>
+> import <iostream>;
 >
-> using std::cout; // Fine, but I don't recommend it
+> using std::cout; // Fine, but I don't use it
 >
 > int main() {
->    cout << "Hello World\n";
+>    cout << "Hello, World!\n";
 > }
 > ```
 
+Finally, the program uses the `<<` operator to write to `std::cout`. It writes the string literal `"Hello, World!"`. We will be talking about strings and string literals in Chapter 2.
+
+## Printing Formatted Strings
+
+You can use `std::format` to print formatted strings, which can contain data in them. To do this, you need to add `import <format>;` to the top.
+
+```cpp
+    std::cout << std::format("{} is equal to {}", "1 + 11", 12);
+    std::cout << std::format("Second argument is {1}. First argument is {0}", "first", "second");
+```
+
+We will be learning more about strings in chapter 3.

@@ -4,6 +4,7 @@
 - [The Beginning](./chapter_1.md)
   - [Hello, World](./chapter_1/hello_world.md)
   - [Variables](./chapter_1/variables.md)
+  - [Primitive Data Types](./chapter_1/primitive_data_types.md)
   - [Functions](./chapter_1/functions.md)
   - [Control Flow](./chapter_1/control_flow.md)
 - [Defining Data Types](./chapter_2.md)
