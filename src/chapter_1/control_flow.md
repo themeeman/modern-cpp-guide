@@ -19,7 +19,7 @@ const auto t = true;
 const auto f = false;
 
 if (t) {
-    std::cout << "This will appear!\n";
+  n and logical operators.  std::cout << "This will appear!\n";
 }
 
 if (f) {
@@ -27,7 +27,9 @@ if (f) {
 }
 ```
 
-For more complex conditions, we can use the comparison and logical operators.
+For more complex conditions, we can use the comparison operators
+
+## Comparison Operators
 
 | Operator | Function                                     |
 |----------|----------------------------------------------|
@@ -37,4 +39,6 @@ For more complex conditions, we can use the comparison and logical operators.
 | <=       | In `a <= b`, a is less than or equal to b    |
 | >        | In `a > b`, a is greater than b              |
 | >=       | In `a >= b`, a is greater than or equal to b |
+
+## Logical Operators
 
