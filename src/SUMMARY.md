@@ -32,7 +32,5 @@
   - [Variadic Templates](./chapter_7/variadic_templates.md)
 - [Lifetimes and Smart Pointers](./chapter_8.md)
   - [Move Semantics](./chapter_8/move_semantics.md)
-  - [Copy and Move Constructors](./chapter_8/copy_move_constructors.md)
-  - [Destructors](./chapter_8/destructors.md)
   - [std::unique_ptr](./chapter_8/unique_ptr.md)
   - [std::shared_ptr](./chapter_8/shared_ptr.md)
